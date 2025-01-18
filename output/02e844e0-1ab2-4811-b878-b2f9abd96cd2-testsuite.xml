@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1737192788373' stop='1737192806008'>
+    <name>Orange HRM</name>
+    <title>Orange HRM</title>
+    <test-cases>
+        <test-case start='1737192788377' status='passed' stop='1737192805538'>
+            <name>Verify user is able to login with valid credentials</name>
+            <title>Verify user is able to login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1737192789700' status='passed' stop='1737192799702'>
+                    <name>Given User is on login page ""</name>
+                    <title>Given User is on login page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1737192789700' status='passed' stop='1737192794687'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1737192794688' status='passed' stop='1737192799701'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1737192799702' status='passed' stop='1737192800298'>
+                    <name>When User enters username "Admin" and password "admin123" ""</name>
+                    <title>When User enters username "Admin" and password "admin123" ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1737192799702' status='passed' stop='1737192799727'>
+                            <name>I wait for element "//input[@name="username"]", 10</name>
+                            <title>I wait for element "//input[@name="username"]", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1737192799728' status='passed' stop='1737192799951'>
+                            <name>I fill field "//input[@name="username"]", "Admin"</name>
+                            <title>I fill field "//input[@name="username"]", "Admin"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1737192799951' status='passed' stop='1737192800297'>
+                            <name>I fill field "//input[@name="password"]", "admin123"</name>
+                            <title>I fill field "//input[@name="password"]", "admin123"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1737192800298' status='passed' stop='1737192805475'>
+                    <name>When User clicks on login button ""</name>
+                    <title>When User clicks on login button ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1737192800298' status='passed' stop='1737192800471'>
+                            <name>I click "//button[@type="submit"]"</name>
+                            <title>I click "//button[@type="submit"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1737192800471' status='passed' stop='1737192805474'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1737192805475' status='passed' stop='1737192805538'>
+                    <name>Then User verifies "Dashboard" is displayed on page ""</name>
+                    <title>Then User verifies "Dashboard" is displayed on page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1737192805476' status='passed' stop='1737192805517'>
+                            <name>I wait for element "//h6[normalize-space()='Dashboard']", 20</name>
+                            <title>I wait for element "//h6[normalize-space()='Dashboard']", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1737192805518' status='passed' stop='1737192805538'>
+                            <name>I see "Dashboard", "//h6[normalize-space()='Dashboard']"</name>
+                            <title>I see "Dashboard", "//h6[normalize-space()='Dashboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
